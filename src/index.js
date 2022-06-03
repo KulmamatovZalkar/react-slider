@@ -7,4 +7,4 @@ import CitiesSliderComponent from "./slider/CitiesSliderComponent";
 
 let root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<CitiesSliderComponent />);
+root.render(<CitiesSliderComponent slides={slides} />);
