@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  background: #000;
+}
+
+$numOfParts: 4;
+$animTime: 1s;
+$stagger: 0.08s;
+$sliderReadyTrans: all $animTime/2 $animTime;
+$maxLettersStagger: 6;
+$letterStagger: 0.1s;
